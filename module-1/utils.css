@@ -1,0 +1,4 @@
+.text-center{text-align: center;} /*center alignment of title*/
+.bg-black{background: black;} /*bg colour*/
+.mx-auto{margin:auto;} /*center alignment of calculator*/
+.max-w{max-width: 40vw;}/*setting percentage width of screen occupied*/

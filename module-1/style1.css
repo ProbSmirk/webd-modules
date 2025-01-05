@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+html, body
+{
+    height: 100%; 
+    width:100%; 
+    font-family: 'Montserrat', sans-serif;
+}
+.button 
+{
+    margin: 0 3px;
+    border: 2px solid orange; 
+    border-radius: 15px; 
+    cursor: pointer; 
+    font-family: 'Montserrat', sans-serif; 
+    
+}
+.flex-container 
+{
+    display: flex; 
+    flex-direction: columnn;
+} 
+.button-center 
+{
+    align-items: center;
+}
+.row
+{
+    margin: 8px;
+}
+.row input
+{
+    margin: 0; 
+    border: 2px solid orange; 
+    border-radius: 9px; 
+    font-family: 'Montserrat', sans-serif; 
+}
+/* for phones */
+@media (max-width: 425px) {
+
+    .button {
+        font-size: 1rem; /* Reduce button size */
+        padding: 10px; /* Adjust padding */
+    }
+
+    .row input {
+        padding: 7px 10px;
+        font-size: 1rem;
+    }
+}
+/* Medium screens (tablets) */
+@media (max-width: 768px) {
+    .button {
+        font-size: 1.8rem;
+        padding: 18px;
+    }
+
+    .row input {
+        padding: 9px 30px;
+        font-size: 1.8rem;
+    }
+}
+
+/* Large screens (desktops) */
+@media (min-width: 769px) 
+{
+    .button {
+        font-size: 2rem;
+        padding: 20px;
+    }
+
+    .row input {
+        padding: 10px 40px;
+        font-size: 2rem;
+    }
+    
+
+}
